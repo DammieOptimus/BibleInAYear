@@ -1,0 +1,81 @@
+body {
+    line-height: 150%;
+    -webkit-font-smoothing: antialiased;
+}
+
+#bibleText {
+    line-height: 2em;
+}
+
+
+#bibleText h1, #bibleText h2, #bibleText h3, #bibleText h4 {
+    font-weight: bold;
+    line-height: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+#bibleText h1 {
+    font-size: 2.2em;
+}
+
+#bibleText h2 {
+    font-size: 1.8em;
+}
+
+#bibleText h3 {
+    font-size: 1.6em;
+}
+
+#bibleText h4 {
+    font-size: 1.3em;
+}
+
+
+#bibleText, #fontSizeGroup, .reveal-later, #randomImage {
+    display: none;
+}
+
+.panel-primary {
+    border-color: #84afd3;
+}
+
+.panel-primary>.panel-heading {
+    background-color: #84afd3;
+    border-color: #84afd3;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.bigger-text {
+    font-size: larger;
+}
+
+.chapter-num {
+   font-size: 1.7em;
+}
+
+.fa-exclamation-triangle {
+    color: #d9534f;
+}
+
+.verse-num {
+    font-size: 0.85714em;
+    margin-right: 0.28571em;
+    color: #777;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.block-indent .indent {
+    padding-left: 2em;
+}
+
+
+
