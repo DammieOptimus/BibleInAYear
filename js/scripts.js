@@ -380,7 +380,7 @@ $('.panel-heading').html(moment().format("dddd, Do MMMM, YYYY"));
 $('.panel-body').html(bibleVersesForEachDayOfTheYear[parseInt(moment().format("DDDD"))]);
 
 //var bibleTextUrl = "http://www.esvapi.org/v2/rest/passageQuery?key=IP&passage=" + bibleVersesForEachDayOfTheYear[parseInt(moment().format("DDDD"))];
-var baseUrl = "https://api.esv.org/v3/passage/html/?include-css-link=true&inline-styles=true&wrapping-div=true&include-book-titles=true&include-passage-references=true&include-headings=true&include-subheadings=true&include-audio-link=false&q=";
+var baseUrl = "https://api.esv.org/v3/passage/html/?include-css-link=true&inline-styles=true&wrapping-div=true&include-book-titles=true&include-passage-references=true&include-headings=true&include-subheadings=true&include-audio-link=true&q=";
 var bibleTextUrl = baseUrl + bibleVersesForEachDayOfTheYear[parseInt(moment().format("DDDD"))];
 
 
