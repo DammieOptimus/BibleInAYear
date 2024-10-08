@@ -514,5 +514,5 @@ $('#btnShrinkFont').on( "click", function() {
 $('.panel-body').effect("highlight", {color: 'lime'}, 3000);
  
  var thisYear = moment().format("YYYY");
- $('#myButton').html('&copy; ' + thisYear + ' Dammie Paul Ayodele');
+ $('#myButton').html('&copy; ' + thisYear + ' Dammie Optimus Solutions');
  
